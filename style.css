@@ -92,3 +92,40 @@ footer {
   color: white;
   margin-top: 40px;
 }
+
+/* Contact section email link styling */
+#contact p {
+  text-align: center;
+  font-size: 1.05em;
+  margin-top: 10px;
+  color: #222;
+}
+
+#contact a {
+  color: #0057b8;
+  text-decoration: none;
+  background: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #0057b8;
+  display: inline-block;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.08s ease;
+}
+
+#contact a:hover,
+#contact a:focus {
+  background: #0057b8;
+  color: #fff;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Small responsive tweaks */
+@media (max-width: 600px) {
+  header {
+    padding: 15px 20px;
+  }
+  .hero {
+    padding: 40px 10px;
+  }
+}
